@@ -5,14 +5,15 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
 import Footer from './components/Footer';
-
+import Counter from './components/Counter'
+import Click from './components/Click';
+import Parent from './components/Parent';
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Home />
-      <About />
-      <Footer />
+    <Counter />
+    <Click/>
+    <Parent/>
     </div>
   );
 }
